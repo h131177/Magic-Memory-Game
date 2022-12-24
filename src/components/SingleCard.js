@@ -1,5 +1,4 @@
-const SingleCard = ({card}) => {
-
+export default function SingleCard({ card }) { //Using _rfc
     return (
         <div className="card" key={card.id}>
             <div>
@@ -7,7 +6,5 @@ const SingleCard = ({card}) => {
               <img className="back" src="/img/cover.png" alt="card back" />
             </div>
         </div>
-    );
+    )
 }
- 
-export default SingleCard;
