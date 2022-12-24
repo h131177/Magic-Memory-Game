@@ -1,4 +1,4 @@
-export default function SingleCard({ card }) { //Using _rfc
+export default function SingleCard({ card }) {
     return (
         <div className="card" key={card.id}>
             <div>
